@@ -22,6 +22,7 @@ const artworkData = [
 ];
 
 const publicationData = [
+    { title: 'Part-wise Translation of Upper-body Gestures via Real-time Target Estimation for Virtual Avatars in Dissimilar Environments', venue: 'IEEE TVCG 2026' },
     { title: 'PropGesture: Few-shot Co-speech Gesture Synthesis for Handheld Props', venue: 'CGF (Pacific Graphics 2026)' },
     { title: 'Neighborhood: Dynamic Spatial Alignment for Traversable Telepresence Across Remote Spaces', venue: 'ACM UIST 2026' },
     { title: 'TranSpace: Progressive Anchoring for Metric-Consistent Scene Synthesis', venue: 'ACM MM 2026' },
