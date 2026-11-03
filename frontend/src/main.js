@@ -22,10 +22,10 @@ function init() {
     // Initialize sketches UI (image upload + grid)
     initSketchesUI();
 
-    // Theme toggle — dark is default
+    // Theme toggle — light is default
     const themeBtn = document.getElementById('theme-toggle');
     const saved = localStorage.getItem('theme');
-    if (saved !== 'light') {
+    if (saved === 'dark') {
         document.documentElement.dataset.theme = 'dark';
     }
 
